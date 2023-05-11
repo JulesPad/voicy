@@ -101,32 +101,36 @@ Here are some of the main features of Voicy 💡:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Voicy's intallation is very simple and fast, you will only need to clone the repository and add your OpenAI and Elevenlabs API keys. Then simply choose the script that is made for your platfrom, and your are ready to go!
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+For Voicy to work you will need 2 API keys, one from OpenAI for ChatGPT and voice-to-text to work, and one from Elevenlabs for speech synthesis to work. 
+
+For both APIs you get access to free credits:
+
+* **OpenAI**: While creating an account with a never used phone number you have automatically $5 of free credit on your account. It is plenty enough to use Voicy for serval long months. 
+
+* **Elevenlabs**: Once you created your Elevenlabs account you get 10K characters free that renew monthly. If you generate long answers regularly the free quota could become short for you. You can upgrade for $0.95 and then $5 monthly to get access to 30K characters. 
+
+Here are some step by step tutorials to get your API key for [OpenAI](https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key) and  [Elevenlabs](https://docs.elevenlabs.io/authentication/01-xi-api-key)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get your free API keys
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/JulesPad/voicy.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+3. Go to the installation path to find the scripts. Open the script that you want to use and move on to step 4
+4. Once you have the Python script opened modify at the beginning of the script the 2 following variables:
+   ```py
+   openai.api_key = "YOUR_KEY"
+
+   user = ElevenLabsUser("YOUR_KEY")
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+5. Feel free to modify the prompt and other parameters! Enjoy 😄
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,9 +139,21 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Voicy is shipped with 2 keyboard shortcuts on each platfrom. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+**Windows Shortcuts**
+| Key Combination   | Action                                |
+|-------------------|---------------------------------------|
+| `Ctrl` + `Shift` + `C` | Start recording                  |
+| `Ctrl` + `Shift` + `X` | Stop recording                   |
+
+**MacOS Shortcuts**
+| Key Combination   | Action                                |
+|-------------------|---------------------------------------|
+| `Ctrl` + `Option` + `Shift` + `C`| Start recording                  |
+| `Ctrl` + `Option` + `Shift` + `X`| Stop recording                   |
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
