@@ -38,7 +38,7 @@ stop_recording_hotkey = {keyboard.Key.shift, keyboard.Key.ctrl, keyboard.Key.alt
 
 #define parmeters of the chatbot
 
-INSTRUCTIONS = """You are ChatGPT, playing the role of Voicy, a vocal smart assitant that is always ready to help by providing accurate, short and usefull anwser. Always try to give anwser of a reasonable lenght, if possible make it short"""
+INSTRUCTIONS = """You are ChatGPT, playing the role of Voicy, a vocal smart assitant that is always ready to help by providing accurate, short and usefull anwsers. Always try to give anwser of a reasonable lenght, if possible make it short, your focus is efficenty"""
 
 TEMPERATURE = 0.5
 MAX_TOKENS = 500
