@@ -139,7 +139,7 @@ Here are some step by step tutorials to get your API key for [OpenAI](https://ww
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Voicy is shipped with 2 keyboard shortcuts on each platfrom. 
+Voicy is made available with 2 keyboard shortcuts on each platfrom, feel free to modify them as you want ;)  
 
 **Windows Shortcuts**
 | Key Combination   | Action                                |
@@ -161,11 +161,12 @@ Voicy is shipped with 2 keyboard shortcuts on each platfrom.
 
 <!-- ROADMAP -->
 ## Roadmap
+  
+Here is a non-exhaustive list of features that I would like to gradually add to Voicy
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Serval language support 
+- [ ] Side pannel UX
+- [ ] On-device operations for reduced latency 
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -194,7 +195,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the AGPL-3.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,23 +203,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
+  
+I would love to have a chat with you, feel free to contact me here:
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jules Padova - [@pad_jules](https://twitter.com/pad_jules) - julespadova5@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Personnal Website / Portfolio : [julespadova.me](https://julespadova.me)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
