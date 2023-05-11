@@ -27,6 +27,9 @@
 
 
 
+![Project Logo](https://raw.githubusercontent.com/JulesPad/voicy/main/assets/voicy-logo.png)
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
