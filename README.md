@@ -26,8 +26,10 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JulesPad/voicy/main/assets/voicy-logo.png" alt="Project Logo" height="350"> 
+</p>
 
-![Project Logo](https://raw.githubusercontent.com/JulesPad/voicy/main/assets/voicy-logo.png)
 
 
 <!-- PROJECT LOGO -->
