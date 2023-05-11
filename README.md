@@ -27,7 +27,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JulesPad/voicy/main/assets/voicy-logo.png" alt="Project Logo" height="350"> 
+  <img src="https://raw.githubusercontent.com/JulesPad/voicy/main/assets/voicy-logo.png" alt="Project Logo" width="650"> 
 </p>
 
 
