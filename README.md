@@ -129,6 +129,7 @@ Here are some step by step tutorials to get your API key for [OpenAI](https://ww
 
    user = ElevenLabsUser("YOUR_KEY")
    ```
+6. If you are on **MacOS** don't forget to allow input monitoring from your terminal in the system's settings. 
 5. Feel free to modify the prompt and other parameters! Enjoy 😄
 
 
