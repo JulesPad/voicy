@@ -34,22 +34,20 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+    
+  <h3 align="center">Speak to AI</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Have a natural voice to voice conversation with ChatGPT anytime with a simple keyboard shortcut on Windows & MacOS
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/JulesPad/voicy">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/JulesPad/voicy/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/JulesPad/voicy/issues">Request Feature</a>
   </p>
 </div>
 
@@ -86,36 +84,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+What if you could access LLMs' huge power by using your voice with a simple shortcut? It is what Voicy allows you to do
+  
+As a huge multitasking power-user and of ChatGPT I found myself struggling to ask quick questions while doing something else, I also missed not having a simpler and more natural way to communicate.
+  
+If you are a multitasking power-user wanting to have access by voice to an AI assistant, an Iron Man fan wanting to reproduce Jarvis 🤖, or impress your friends with an actually smart voice assistant; Voicy is for you!
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
+Here are some of the main features of Voicy 💡:
+* Custom prompts, craft your entirely custom prompt to create whatever personality you want in ChatGPT. Or feel free to use the optimized Voicy prompt.
+* Always-on shortcut, one you run the script Voicy will wait for the shortcut to be activated and will run in the background without you having to do anything
+* Auto-install the required packages, no need to bother yourself with installing them; Voicy handles this for you. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -123,34 +101,37 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Voicy's intallation is very simple and fast, you will only need to clone the repository and add your OpenAI and Elevenlabs API keys. Then simply choose the script that is made for your platfrom, and your are ready to go!
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+For Voicy to work you will need 2 API keys, one from OpenAI for ChatGPT and voice-to-text to work, and one from Elevenlabs for speech synthesis to work. 
+
+For both APIs you get access to free credits:
+
+* **OpenAI**: While creating an account with a never used phone number you have automatically $5 of free credit on your account. It is plenty enough to use Voicy for serval long months. 
+
+* **Elevenlabs**: Once you created your Elevenlabs account you get 10K characters free that renew monthly. If you generate long answers regularly the free quota could become short for you. You can upgrade for $0.95 and then $5 monthly to get access to 30K characters. 
+
+Here are some step by step tutorials to get your API key for [OpenAI](https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key) and  [Elevenlabs](https://docs.elevenlabs.io/authentication/01-xi-api-key)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get your free API keys
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/JulesPad/voicy.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+3. Go to the installation path to find the scripts. Open the script that you want to use and move on to step 4
+4. Once you have the Python script opened modify at the beginning of the script the 2 following variables:
+   ```py
+   openai.api_key = "YOUR_KEY"
+
+   user = ElevenLabsUser("YOUR_KEY")
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+6. If you are on **MacOS** don't forget to allow input monitoring from your terminal in the system's settings. 
+5. Feel free to modify the prompt and other parameters! Enjoy 😄
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,9 +140,21 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Voicy is made available with 2 keyboard shortcuts on each platfrom, feel free to modify them as you want ;)  
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+**Windows Shortcuts**
+| Key Combination   | Action                                |
+|-------------------|---------------------------------------|
+| `Ctrl` + `Shift` + `C` | Start recording                  |
+| `Ctrl` + `Shift` + `X` | Stop recording                   |
+
+**MacOS Shortcuts**
+| Key Combination   | Action                                |
+|-------------------|---------------------------------------|
+| `Ctrl` + `Option` + `Shift` + `C`| Start recording                  |
+| `Ctrl` + `Option` + `Shift` + `X`| Stop recording                   |
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,16 +162,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
+  
+Here is a non-exhaustive list of features that I would like to gradually add to Voicy
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Serval language support 
+- [ ] Side pannel UX
+- [ ] On-device operations for reduced latency 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,7 +196,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the AGPL-3.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,28 +204,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
+  
+I would love to have a chat with you, feel free to contact me here:
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jules Padova - [@pad_jules](https://twitter.com/pad_jules) - julespadova5@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Personnal Website / Portfolio : [julespadova.me](https://julespadova.me)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
