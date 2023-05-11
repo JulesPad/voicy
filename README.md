@@ -42,7 +42,7 @@
   <p align="center">
     Have a natural voice to voice conversation with ChatGPT anytime with a simple keyboard shortcut on Windows & MacOS
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JulesPad/voicy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/JulesPad/voicy">View Demo</a>
