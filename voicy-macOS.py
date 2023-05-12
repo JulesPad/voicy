@@ -52,10 +52,20 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 16000
 CHUNK = 1024
-WAVE_OUTPUT_FILENAME = "/Users/julespadova/Documents/voice to voice chatbot auidos/output.wav"
 transcript = ""
 
+# Get the current working directory (repository root)
+repo_root = os.path.dirname(os.path.abspath(__file__))
 
+# Set the output folder and file name
+output_folder = "output_audios"
+output_file = "output.wav"
+
+# Create the full path to the output file
+output_file_path = os.path.join(repo_root, output_folder, output_file)
+
+# Assign the output file path to WAVE_OUTPUT_FILENAME
+WAVE_OUTPUT_FILENAME = output_file_path
 
 # Create an instance of PyAudio
 audio = pyaudio.PyAudio()
