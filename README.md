@@ -45,7 +45,7 @@
     <a href="https://github.com/JulesPad/voicy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JulesPad/voicy">View Demo</a>
+    <a href="https://youtu.be/AnGoBMb56vI">View Demo</a>
     ·
     <a href="https://github.com/JulesPad/voicy/issues">Report Bug</a>
     ·
